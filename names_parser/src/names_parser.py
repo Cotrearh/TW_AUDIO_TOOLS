@@ -3,9 +3,6 @@
 
 import re
 
-out_file = f"D:/MOD/audio/wwnames.txt"
-
-
 def parse(src_file, out_file, append = None):
     with open(src_file, mode='r') as file, open(out_file, mode='w') as outFile:
         fileContent = file.read()
