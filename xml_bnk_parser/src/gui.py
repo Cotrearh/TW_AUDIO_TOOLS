@@ -32,7 +32,7 @@ class Toplevel1:
         top.minsize(120, 1)
         top.maxsize(1284, 701)
         top.resizable(1,  1)
-        top.title("names parser")
+        top.title("xml bnk parser")
         top.configure(background="#d9d9d9")
         top.configure(highlightbackground="#d9d9d9")
         top.configure(highlightcolor="#000000")
